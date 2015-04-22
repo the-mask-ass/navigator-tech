@@ -92,7 +92,7 @@ div#content-top-shadow	{
 	
 div#content-bottom-shadow{
 	background: url('../img/content-bottom-shadow.png') repeat-x;
-	margin-top: 150px;
+	margin-top: 10px;
 	height: 20px;
 	width; 100%;
 	}
@@ -101,11 +101,32 @@ div#page-wrapper {
 	background-color: #ffffff;
 	border: 1px solid #bababa;
 	clear: borh;
-	height: 600px;
+	height: 1000px;
 	margin-top: 75px;
 	overflow: hidden;
 	padding: 15px;
 	width: 768px;
+	}
+
+div#message	{
+	margin: 0px 0px 0px 10px;
+	width: 750px;
+	text-align: justify;
+	}
+
+	div#message h3	{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	}
+
+	div#message p	{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	}
+
+p#num{
+	margin: 5px 0px 5px 20px;
 	}
 	
 ul#tabs	{
